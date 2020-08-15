@@ -12,6 +12,7 @@
             </button>
             <ul class="dropdown-menu">
                 <li><h6 class="dropdown-header">Filter by done status</h6></li>
+                <li><button :class="{ 'active': true, 'dropdown-item' : true }">None</button></li>
                 <li><button class="dropdown-item">Done</button></li>
                 <li><button class="dropdown-item">Undone</button></li>
             </ul>
